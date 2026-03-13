@@ -1,3 +1,334 @@
-<html>
-<h1>A!!!</h1>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Európa Áruház</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+.image-container img{
+    width:100%;
+    border-radius:10px;
+}
+
+.paragraphs{
+    padding:40px 0;
+}
+
+.contact{
+    background:#212529;
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+/* animation start state */
+.hidden{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all 1s ease;
+}
+
+/* animation visible */
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
+</style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+<h1>Európa Áruház</h1>
+<p>~Ahol az álmok valóra válnak~</p>
+</header>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">Logó</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navMenu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#">Boltok</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Elérhetőség</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- First Image -->
+<div class="container my-5 image-container hidden">
+<img src="https://picsum.photos/1200/400?random=1">
+</div>
+
+<!-- Paragraph Section -->
+<div class="container paragraphs">
+<div class="row">
+
+<div class="col-md-4 hidden">
+<h3>Paragraph 1</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
+lacus sed turpis malesuada tempor.
+</p>
+</div>
+
+<div class="col-md-4 hidden">
+<h3>Paragraph 2</h3>
+<p>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+accusantium doloremque laudantium.
+</p>
+</div>
+
+<div class="col-md-4 hidden">
+<h3>Paragraph 3</h3>
+<p>
+Ut enim ad minima veniam, quis nostrum exercitationem ullam
+corporis suscipit laboriosam.
+</p>
+</div>
+
+</div>
+</div>
+
+<!-- Second Image -->
+<div class="container my-5 image-container hidden">
+<img src="https://picsum.photos/1200/400?random=2">
+</div>
+
+<div class="container paragraphs">
+<div class="row">
+
+<div class="col-md-4 hidden">
+<h3>Paragraph 1</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
+lacus sed turpis malesuada tempor.
+</p>
+</div>
+
+<div class="col-md-4 hidden">
+<h3>Paragraph 2</h3>
+<p>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+accusantium doloremque laudantium.
+</p>
+</div>
+
+<div class="col-md-4 hidden">
+<h3>Paragraph 3</h3>
+<p>
+Ut enim ad minima veniam, quis nostrum exercitationem ullam
+corporis suscipit laboriosam.
+</p>
+</div>
+
+</div>
+</div>
+
+<!-- Shop Links Section -->
+<div class="container my-5">
+<div class="row text-center">
+
+<!-- Shop 1 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=1" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Kávézó</h5>
+<p class="card-text">Explore great products.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 2 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=2" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Plüssös Bolt</h5>
+<p class="card-text">Check out amazing deals.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 3 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=3" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Drogéria</h5>
+<p class="card-text">Find top quality items.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 4 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=4" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Étterem</h5>
+<p class="card-text">Discover popular products.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 5 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=5" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Élelmiszer Üzlet</h5>
+<p class="card-text">Browse unique collections.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 6 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=6" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Lemezbolt</h5>
+<p class="card-text">See the latest products.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 7 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=7" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Fagyibolt</h5>
+<p class="card-text">Find great discounts.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 8 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=8" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Játszóház</h5>
+<p class="card-text">Explore trending items.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 9 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=9" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Gyerek Megőrző</h5>
+<p class="card-text">Shop high quality goods.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 10 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=10" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Kaszinó</h5>
+<p class="card-text">Discover new arrivals.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 11 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=11" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Fodrász</h5>
+<p class="card-text">Browse exciting offers.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+<!-- Shop 12 -->
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+<div class="card h-100 shadow">
+<img src="https://picsum.photos/400/250?random=12" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Könyvesbolt</h5>
+<p class="card-text">Check our featured items.</p>
+<a href="#" class="btn btn-primary">Visit Shop</a>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- Contact Section -->
+<div class="contact">
+<h2>Elérhetőség</h2>
+<p>Email: example@email.com</p>
+<p>Phone: +36 123 456 789</p>
+<p>Address: Example Street 10</p>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Animation Script -->
+<script>
+const elements = document.querySelectorAll(".hidden");
+
+function showOnScroll(){
+    const triggerBottom = window.innerHeight * 0.85;
+
+    elements.forEach(el => {
+        const boxTop = el.getBoundingClientRect().top;
+
+        if(boxTop < triggerBottom){
+            el.classList.add("show");
+        }
+    });
+}
+
+window.addEventListener("scroll", showOnScroll);
+showOnScroll();
+</script>
+
+</body>
 </html>
